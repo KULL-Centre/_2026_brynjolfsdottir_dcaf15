@@ -1,0 +1,12 @@
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+
+# large simulation output, downloaded separately from the cluster (see README)
+data/uniprot_variants/*
+!data/uniprot_variants/.gitkeep
+*.dcd
+*.xtc
+*.trr
+*.npy
